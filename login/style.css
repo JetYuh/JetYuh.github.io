@@ -1,0 +1,23 @@
+form{
+  text-align: center;
+
+  width: 500px;
+  margin: auto;
+}
+h1{
+  border-bottom: 5px solid #eee;
+}
+input{
+  width: 80%;
+  height: 40px;
+  font-size: 23px;
+  outline: none;
+  border: none;
+}
+input[type="text"],input[type="password"]:hover{
+  border:1px solid grey;
+}
+input[type="submit"]:hover{
+  background-color: grey;
+  cursor: pointer;
+}
